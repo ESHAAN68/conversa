@@ -7,7 +7,7 @@ import {
   SubmitHandler, 
   useForm
 } from "react-hook-form";
-import { BsGithub, BsGoogle } from 'react-icons/bs';
+import { BsGithub, BsApple } from 'react-icons/bs';
 
 import Input from "../../components/inputs/Input";
 import Button from "@/app/components/Button";
@@ -195,8 +195,8 @@ const AuthForm = () => {
               onClick={() => socialAction('github')}
             />
             <AuthSocialButton
-              icon={BsGoogle}
-              onClick={() => socialAction('google')}
+              icon={BsApple}
+              onClick={() => socialAction('Apple')}
             />
           </div>
         </div>
