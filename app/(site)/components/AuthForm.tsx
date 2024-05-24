@@ -7,7 +7,7 @@ import {
   SubmitHandler, 
   useForm
 } from "react-hook-form";
-import { BsGithub, BsApple, BsDiscord } from 'react-icons/bs';
+import { BsGithub, BsApple, BsGoogle } from 'react-icons/bs';
 
 import Input from "../../components/inputs/Input";
 import Button from "@/app/components/Button";
@@ -198,9 +198,10 @@ const AuthForm = () => {
               icon={BsApple}
               onClick={() => socialAction('Apple')}
             />
-            AuthSocialButton
+            <AuthSocialButton
               icon={BsDiscord}
               onClick={() => socialAction('Discord')}
+              />
           </div>
         </div>
 
